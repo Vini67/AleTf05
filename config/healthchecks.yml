@@ -1,0 +1,5 @@
+healthchecks:
+  backend:
+    type: http
+    url: http://backend:5000/health
+    interval: 10s
