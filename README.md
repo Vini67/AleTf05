@@ -71,45 +71,48 @@ O sistema é composto por:
 ---
 
 ## 📂 Estrutura do Projeto
+
+```bash
 TF05/
 ├── README.md
 ├── docker-compose.yml
 ├── dashboard/
-│ ├── Dockerfile
-│ ├── index.html
-│ ├── js/
-│ │ ├── dashboard.js
-│ │ └── charts.js
-│ └── css/
-│ └── dashboard.css
+│   ├── Dockerfile
+│   ├── index.html
+│   ├── js/
+│   │   ├── dashboard.js
+│   │   └── charts.js
+│   └── css/
+│       └── dashboard.css
 ├── api/
-│ ├── Dockerfile
-│ ├── app.py
-│ ├── models/
-│ │ ├── metrics.py
-│ │ └── alerts.py
-│ └── healthchecks/
-│ ├── http_check.py
-│ ├── db_check.py
-│ └── custom_check.py
+│   ├── Dockerfile
+│   ├── app.py
+│   ├── models/
+│   │   ├── metrics.py
+│   │   └── alerts.py
+│   └── healthchecks/
+│       ├── http_check.py
+│       ├── db_check.py
+│       └── custom_check.py
 ├── database/
-│ ├── init.sql
-│ └── migrations/
+│   ├── init.sql
+│   └── migrations/
 ├── scripts/
-│ ├── build.sh
-│ ├── deploy.sh
-│ ├── rollback.sh
-│ ├── backup.sh
-│ ├── cleanup.sh
-│ └── health-monitor.sh
+│   ├── build.sh
+│   ├── deploy.sh
+│   ├── rollback.sh
+│   ├── backup.sh
+│   ├── cleanup.sh
+│   └── health-monitor.sh
 ├── config/
-│ ├── healthchecks.yml
-│ ├── alerts.yml
-│ └── thresholds.yml
+│   ├── healthchecks.yml
+│   ├── alerts.yml
+│   └── thresholds.yml
 └── docs/
-├── automation.md
-├── healthchecks.md
-└── maintenance.md
+    ├── automation.md
+    ├── healthchecks.md
+    └── maintenance.md
+```
 
 🌐 Acessos
 Dashboard: http://localhost:3000
